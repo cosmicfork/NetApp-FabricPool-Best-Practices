@@ -103,7 +103,7 @@ If you're using virtualized object stores (also known as bare metal object stora
 Not setting the tiering policy to 'None,' may cause the virtualized object store to face issues. This happens because blocks associated with virtual machines may be marked as 'cold' and get moved into themselves, causing delays and reducing performance when reading data.
 
 #### ONTAP CLI 
-To view FabricPool volume space utilization details using the ONTAP CLI, run the following command: <br><br>
+To view FabricPool volume space utilization details using the ONTAP CLI, run the following command: <br>
 `volume show-footprint`
 <br>
 
