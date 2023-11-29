@@ -12,11 +12,11 @@ Introduced in ONTAP 9.4, Inactive Data Reporting (IDR) is ONTAP’s built-in too
 
 ### IDR behavior table for ONTAP version history <br>
 Figure 1 shows how IDR behaves with its corresponding ONTAP version. You can use this table to see how IDR will report cold data in the ONTAP version you're using. 
-![table displaying IDR behevior for ONTAP versions](images/Figure1.png) <br> <small>Figure 1</small>
+![table displaying IDR behevior for ONTAP versions](images/table.png) <br> <small>Figure 1</small>
 
 #### Viewing in ONTAP System Manager
 To view the IDR status, open the ONTAP System Manager and select local tiers overview. The interface should look similarto Figure 2: <br>
-![ONTAP system manager screenshot](images/Figure2.png) <br> <small>Figure 2</small>
+![ONTAP system manager screenshot](images/sysman1.png) <br> <small>Figure 2</small>
 
 #### ONTAP CLI 
 If you're using ONTAP 9.6 or later and have a Solid State Drive (SSD) local tier, IDR is turned on by default. However, if your client workload demands 100% of the system resources, IDR might automatically turn off to allocate resources elsewhere. If this happens, IDR doesn't switch back on by itself. To ensure IDR stays active and doesn't get turned off for other workloads, you should manually enable '-is-inactive-data-reporting-enabled' to true.
