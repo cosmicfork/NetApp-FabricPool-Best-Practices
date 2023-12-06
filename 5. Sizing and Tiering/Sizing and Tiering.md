@@ -15,7 +15,7 @@ Figure 1 shows how IDR behaves with its corresponding ONTAP version. You can use
 ![table displaying IDR behevior for ONTAP versions](images/table.png) <br> <small>Figure 1</small>
 
 #### Viewing in ONTAP System Manager
-To view the IDR status, open the ONTAP System Manager and select local tiers overview. The interface should look similarto Figure 2: <br>
+To view the IDR status, open the ONTAP System Manager and select local tiers overview. The interface should look similar to figure 2: <br>
 ![ONTAP system manager screenshot](images/sysman1.png) <br> <small>Figure 2</small>
 
 #### ONTAP CLI 
