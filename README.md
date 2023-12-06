@@ -4,6 +4,7 @@ Based on the [NetApp FabricPool Best Practices](https://www.netapp.com/pdf.html?
 Special thanks to Grant Glass and Dr. Jordynn Jack for facilitating this project. 
 
 # Authors
+- README.md - Marcin Walczak
 - What is Fabric Pool & Who Should Use It - Logan Madden
 - Checking your system requirements to use FabricPool - Lauren Guillemette
 - Setup - Justin Watson
