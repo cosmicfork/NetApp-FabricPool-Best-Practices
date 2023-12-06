@@ -156,7 +156,7 @@ While using FabricPool Mirror, data is mirrored across two buckets so Cluster Aâ
 MetroCluster expects mirroring across all local tiers, both traditional aggregates, and those using FabricPool. Any unmirrored aggregates in MetroCluster environments do not need to use FabricPool Mirror, but this will prompt error messages warning that the aggregate is not mirrored and that they are missing a FabricPool Mirror. 
 
 ## 10. Finding more FabricPool documentation
-### a. Below are a list of further documentation and resources for NetApp FabricPool: 
+### a. Below is a list of further documentation and resources for NetApp FabricPool: 
 - [TR-4598: FabricPool Best Practices in ONTAP 9.13.1](https://www.netapp.com/pdf.html?item=/media/17239-tr-4598.pdf) (primary source for this documentation)
 - [FabricPool Overview](https://docs.netapp.com/us-en/ontap/concepts/fabricpool-concept.html#:~:text=FabricPool%20is%20an%20ONTAP%20feature,object%20storage%20in%20the%20cloud.)
 - [FabricPool Tier Management Overview](https://docs.netapp.com/us-en/ontap/fabricpool/tiering-policies-concept.html#:~:text=FabricPool%20tiering%20policies%20determine%20when,decreases%20when%20it%20is%20not.)
