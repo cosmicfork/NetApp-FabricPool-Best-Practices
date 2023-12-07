@@ -1,6 +1,5 @@
 # Sizing and Tiering
 
-## Introduction to Sizing and Tiering 
 FabricPool’s seamless data transfer between local and cloud tiers is maintained through __sizing__ and __tiering__. __Sizing__ refers to the process of determining the storage capacity required for the entire storage infrastructure, whereas __tiering__ refers to the actual dynamic transfer of data between local and cloud tiers. How you size the local and cloud tiers can affect how data will be tiered. 
 
 FabricPool automatically categorizes data blocks as either active “hot” blocks, or inactive “cold” blocks. For the sake of optimizing local storage speeds, inactive cold data is tiered to the cloud tier, while frequently used hot data remains on the local tier. 
