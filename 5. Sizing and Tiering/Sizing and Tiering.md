@@ -99,7 +99,7 @@ As mentioned earlier, it’s important you monitor your local tier’s capacity.
 ### Storing virtualized objects 
 If you're using virtualized object stores (also known as bare metal object storage), it's critical that you not store them in volumes that automatically move inactive data to the cloud. Make sure to set the tiering policy on those volumes to 'None.'
 
-Not setting the tiering policy to 'None,' may cause the virtualized object store to face issues. This happens because blocks associated with virtual machines may be marked as 'cold' and get moved into themselves, causing delays and reducing performance when reading data.
+Not setting the tiering policy to 'None' may cause the virtualized object store to face issues. This happens because blocks associated with virtual machines may be marked as 'cold' and get moved into themselves, causing delays and reducing performance when reading data.
 
 #### ONTAP CLI 
 To view FabricPool volume space utilization details using the ONTAP CLI, run the following command: <br>
